@@ -1,7 +1,3 @@
-# Authors  
-**Federico Filì** (Politecnico di Torino) - [s332158@studenti.polito.it](mailto:s332158@studenti.polito.it)  
-**Giorgio Licitra** (Politecnico di Torino) - [s332162@studenti.polito.it](mailto:s332162@studenti.polito.it)  
-
 ## Abstract  
 This project investigates the use of domain adaptation techniques to enhance the performance of semantic segmentation models in transitioning from synthetic to real-world data. Focusing on the comparison between a classical segmentation model (DeepLabV2) and a real-time segmentation network (BiSeNet), this work demonstrates how data augmentation and adversarial training can mitigate the domain shift challenge. The proposed methods aim to balance accuracy and efficiency for real-time applications such as autonomous driving and urban scene understanding.  
 
@@ -24,7 +20,11 @@ Semantic segmentation plays a crucial role in computer vision, requiring pixel-w
 ## Conclusion  
 This project highlights the effectiveness of domain adaptation techniques in improving the performance of real-time semantic segmentation models for real-world applications. By combining data augmentation and adversarial learning, BiSeNet achieves substantial improvements, narrowing the performance gap with classical models. Future work could explore alternative adaptation strategies and test these methods across different datasets and domains to further refine and validate their applicability.
 
-## 📜 License
+## Authors  
+**Federico Filì** (Politecnico di Torino) - [s332158@studenti.polito.it](mailto:s332158@studenti.polito.it)  
+**Giorgio Licitra** (Politecnico di Torino) - [s332162@studenti.polito.it](mailto:s332162@studenti.polito.it)  
+
+## License
 © 2025 Federico Filì and Giorgio Licitra. All rights reserved.
 
 This project is licensed for personal and educational purposes only. Unauthorized distribution, reproduction, or commercial use is strictly prohibited without prior permission.
