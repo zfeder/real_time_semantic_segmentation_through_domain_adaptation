@@ -1,0 +1,22 @@
+config = {
+    "model_name": "BiSeNet",
+    "train_dataset_name": "GTAV",
+    "val_dataset_name": "CityScapes",
+    "DEEPLABV2_PATH": '/kaggle/input/cityscapes/deeplab_resnet_pretrained_imagenet.pth',
+    "num_classes": 19,
+    "optimizer_name": "SGD",
+    "epochs": 50,
+    "batch_size": 8,
+    "n_workers": 4,
+    "device": "cuda" if torch.cuda.is_available() else "cpu",
+    "parallelize": True,
+    "lr": 0.01,
+    "momentum": 0.9,
+    "weight_decay": 1e-4,
+    "ignore_index": -1,
+    "CITYSCAPES_PATH": '/kaggle/input/cityscapes/cityscapes/reduced_leftImg8bit',
+    "GTAV_PATH": '/kaggle/input/gta5data/GTA5',
+    "checkpoint_dir": "/kaggle/working",
+    "augmentations": 3,
+    "adversarial": True  # Abilita il training adversariale
+}
